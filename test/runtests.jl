@@ -2,5 +2,6 @@ using TestPkg
 using Test
 
 @testset "TestPkg.jl" begin
-    # Write your own tests here.
+    A = test()
+    @test A[1,3] == 4
 end
