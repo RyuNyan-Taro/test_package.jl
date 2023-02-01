@@ -1,0 +1,14 @@
+name = "TestPkg"
+uuid = "b62db780-3795-4294-afcf-191947a78ec4"
+authors = ["Ryu Nyantaro"]
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1"
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
